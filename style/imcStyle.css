@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+:root{
+    --color-header: #7036e6;
+    --color-background: #D4F0FC;
+    /* --color-intermediate: #89D6FB; */
+    /* --color-laterals: #02A9F7; */
+    --color-font: #7036e6;  
+    --font-body: 'Open Sans', sans-serif;
+    --font-titles: 'Lato', sans-serif;
+}
+
+div#container h1{
+    text-align: center;
+    font-family: var(--font-titles);
+}
+
+div#field{
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 4px grey;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+div#field h1{
+    padding: 10px;
+}
+
+article#imcValue{
+    display: inline-block;
+    width: 200px;
+    font-family: var(--font-body);
+    text-align: left;
+}
+
+article#imcResult{
+    display: inline-block;
+    width: 200px;
+    font-family: var(--font-body);
+    text-align: left;
+}
+
+.boldPTitle{
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.inputsBMI{
+    text-align: left;
+    padding: 10px;
+    font-family: var(--font-body);
+}
+
+.buttonCalculate{
+    width: 180px;
+    background-color: var(--color-header);
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 3px;
+    cursor: pointer;
+    font-family: var(--font-titles);
+}
+
+.over{
+    background-color: var(--color-font);
+}
+
+.clicking{
+    background-color: #000;
+}
+
+div#result{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: var(--font-body);
+}
+
+.red{
+    background-color: #991a1a;
+}
+
+.yellow{
+    background-color: #b8af33;
+}
+
+.green{
+    background-color: #319131;
+}
